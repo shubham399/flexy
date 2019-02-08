@@ -1,8 +1,11 @@
 if theme.pubkey
   section.pubkey= theme.pubkey
 section.copyright
-  a(href='http://opensource.org/licenses/MIT') MIT License 
- |  img(src='https://www.hackthebox.eu/badge/image/77992')
+  a(href='http://opensource.org/licenses/MIT') MIT License Published with:
+  | &middot;
+  a(href='https://hexo.io/') Hexo  <br>
+  | &middot;
+  img(src='https://www.hackthebox.eu/badge/image/77992b', alt= 'htb', title='Hack the Box')
   if config.feed && config.feed.url
     | &middot;
     a(href= config.feed.url) RSS Feed
